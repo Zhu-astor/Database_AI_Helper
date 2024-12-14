@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradient Chat</title>
+    <style>
+        body {
+            font-family: 'Verdana', sans-serif;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            background: linear-gradient(45deg, #1d1d1d, #282828);
+            color: #f8f8f8;
+        }
+
+        h1 {
+            padding: 15px;
+            text-align: center;
+            background: linear-gradient(90deg, #ff6f00, #f50057);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-size: 2.5rem;
+        }
+
+        .chat-container {
+            flex: 1;
+            overflow-y: auto;
+            padding: 20px;
+            background: #1d1d1d;
+        }
+
+        .response {
+            margin: 10px 0;
+            padding: 10px;
+            background: #333;
+            color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+        }
+
+        .input-area {
+            padding: 15px;
+            display: flex;
+            gap: 15px;
+            background: #1d1d1d;
+        }
+
+        textarea {
+            flex: 1;
+            padding: 10px;
+            border-radius: 10px;
+            border: 1px solid #444;
+            background: #222;
+            color: #fff;
+            font-size: 1rem;
+            resize: none;
+        }
+
+        button {
+            padding: 10px 20px;
+            background: linear-gradient(45deg, #ff6f00, #f50057);
+            color: #fff;
+            border: none;
+            border-radius: 10px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+
+        button:hover {
+            transform: scale(1.1);
+        }
+    </style>
+    <script>
+        async function sendMessage() {
+            const userInput = document.getElementById('userInput').value;
+            const chatContainer = document.querySelector('.chat-container');
+
+            if (userInput.trim() === "") {
+                alert("Enter a message!");
+                return;
+            }
+
+            const response = document.createElement('div');
+            response.className = 'response';
+            response.innerText = "Thinking...";
+            chat
+        }
