@@ -87,6 +87,23 @@ Database_AI_Helper/
 
 ---
 
+## 🛠 **展示成果**
+- **使用實例1**：
+![image](https://github.com/user-attachments/assets/959ee115-5362-491a-848c-eb505b795754)
+![image](https://github.com/user-attachments/assets/354eb0c7-5943-4ffe-a238-604cc21e8289)
+- **使用實例2**：
+![image](https://github.com/user-attachments/assets/57f7adef-c9ef-409c-8f3f-834b921516bb)
+![image](https://github.com/user-attachments/assets/00bf8f33-6009-42c8-b0d5-d8f9a4a000bb)
+- **使用實例3**：
+ ![image](https://github.com/user-attachments/assets/0ceb6280-cdab-4f62-bf64-9af29b5a8323)
+![image](https://github.com/user-attachments/assets/ce23966f-9ffb-441a-9b66-cd5c087ee05f)
+- **使用實例4**：
+![image](https://github.com/user-attachments/assets/609be1d8-f7b0-4920-bffc-813600e84962)
+![image](https://github.com/user-attachments/assets/5e89c5e2-0aa6-48e3-994b-60af89ff35be)
+
+
+---
+
 ## 🔗 **版本控制**
 - **Git 分支**：`main`
 - **初次提交**：`first_test`
